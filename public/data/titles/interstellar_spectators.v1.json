@@ -1,0 +1,145 @@
+{
+  "approved_through": "season_01/episode_02",
+  "artwork": {
+    "alt": {
+      "en": "The observation station crew",
+      "ru": "Экипаж станции наблюдателей"
+    },
+    "focal_point": "50% 50%",
+    "key": "interstellar-spectators/cover.png"
+  },
+  "channels": {
+    "patreon": {
+      "title_templates": {
+        "en": "Interstellar Spectators. Chronicles: {title}",
+        "ru": "Межзвёздные наблюдатели. Хроники: {title}"
+      }
+    }
+  },
+  "collections": {
+    "season_01": {
+      "show_number": false,
+      "slug": "chronicles",
+      "titles": {
+        "en": "Chronicles",
+        "ru": "Хроники"
+      }
+    }
+  },
+  "hierarchy": [
+    {
+      "display": "separate",
+      "level": "season"
+    },
+    {
+      "display": "separate",
+      "level": "episode"
+    },
+    {
+      "display": "hidden",
+      "level": "chapter"
+    }
+  ],
+  "id": "interstellar_spectators",
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "release_unit": "episode",
+  "schema_version": 1,
+  "slug": "interstellar_spectators",
+  "titles": {
+    "en": "Interstellar Spectators",
+    "ru": "Межзвёздные наблюдатели"
+  },
+  "units": [
+    {
+      "artwork": {
+        "alt": {
+          "en": "Pink and monochrome worlds collide aboard a space station",
+          "ru": "Розовый и чёрно-белый миры сталкиваются на космической станции"
+        },
+        "focal_point": "50% 50%",
+        "key": "interstellar-spectators/season-01/episode-01.png"
+      },
+      "content": {
+        "en": "content/interstellar_spectators/season_01/episode_01/en.v1.json",
+        "ru": "content/interstellar_spectators/season_01/episode_01/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season",
+          "show_number": false,
+          "titles": {
+            "en": "Chronicles",
+            "ru": "Хроники"
+          }
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        }
+      ],
+      "id": "season_01/episode_01",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "chronicles",
+        "barbenheimer-collapse-of-objectivity"
+      ],
+      "titles": {
+        "en": "Barbenheimer and the Collapse of Objectivity",
+        "ru": "Барбенгеймер и крах объективности"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Alien observers watch a solar eclipse",
+          "ru": "Инопланетные наблюдатели смотрят на солнечное затмение"
+        },
+        "focal_point": "50% 50%",
+        "key": "interstellar-spectators/season-01/episode-02.png"
+      },
+      "content": {
+        "en": "content/interstellar_spectators/season_01/episode_02/en.v1.json",
+        "ru": "content/interstellar_spectators/season_01/episode_02/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season",
+          "show_number": false,
+          "titles": {
+            "en": "Chronicles",
+            "ru": "Хроники"
+          }
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        }
+      ],
+      "id": "season_01/episode_02",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "chronicles",
+        "scheduled-eclipse"
+      ],
+      "titles": {
+        "en": "Scheduled Eclipse",
+        "ru": "Затмение по расписанию"
+      }
+    }
+  ]
+}

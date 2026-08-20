@@ -1,0 +1,649 @@
+{
+  "approved_through": "season_01/episode_03/chapter_002",
+  "artwork": {
+    "alt": {
+      "en": "Alex looks toward a city in a new world at sunset",
+      "ru": "Алекс смотрит на город нового мира на закате"
+    },
+    "focal_point": "50% 45%",
+    "key": "reborn-to-die-another-way/cover.png"
+  },
+  "channels": {},
+  "collections": {},
+  "hierarchy": [
+    {
+      "display": "separate",
+      "level": "season"
+    },
+    {
+      "display": "separate",
+      "level": "episode"
+    },
+    {
+      "display": "separate",
+      "level": "chapter"
+    }
+  ],
+  "id": "rebirth_and_die_another_way",
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "release_unit": "chapter",
+  "schema_version": 1,
+  "slug": "rebirth_and_die_another_way",
+  "titles": {
+    "en": "Reborn to Die... Another Way!",
+    "ru": "Переродиться и умереть... Другим способом!"
+  },
+  "units": [
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_001/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_001",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-001"
+      ],
+      "titles": {
+        "en": "Chapter 1 — An Ordinary Evening and the Last Truck",
+        "ru": "Глава 1 — Обычный вечер и последний грузовик"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_002/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_002",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-002"
+      ],
+      "titles": {
+        "en": "Chapter 2 — Awakening Without an Interface",
+        "ru": "Глава 2 — Пробуждение без интерфейса"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_003/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_003",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-003"
+      ],
+      "titles": {
+        "en": "Chapter 3 — Casting for a Hero",
+        "ru": "Глава 3 — Кастинг на героя"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_004/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_004/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_004",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_004",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-004"
+      ],
+      "titles": {
+        "en": "Chapter 4 — Bargaining at the Gates",
+        "ru": "Глава 4 — Торг у ворот"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_005/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_005/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_005",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_005",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-005"
+      ],
+      "titles": {
+        "en": "Chapter 5 — A Stranger's Campfire",
+        "ru": "Глава 5 — Чужой костёр"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_006/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_006/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_006",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_006",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-006"
+      ],
+      "titles": {
+        "en": "Chapter 6 — Traces on the Fabric",
+        "ru": "Глава 6 — Следы на ткани"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_007/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_007/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_007",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_007",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-007"
+      ],
+      "titles": {
+        "en": "Chapter 7 — Threshold",
+        "ru": "Глава 7 — Порог"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_001/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_001",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-001"
+      ],
+      "titles": {
+        "en": "Chapter 8 — Interrogation at the Threshold",
+        "ru": "Глава 8 — Допрос на пороге"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_002/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_002",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-002"
+      ],
+      "titles": {
+        "en": "Chapter 9 — The Woodpile and the Manure",
+        "ru": "Глава 9 — Поленница и навоз"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_003/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_003",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-003"
+      ],
+      "titles": {
+        "en": "Chapter 10 — Stones, a Stubborn Ox, and the Illusion of Safety",
+        "ru": "Глава 10 — Камни, упрямый бык и иллюзия безопасности"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_004/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_004/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_004",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_004",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-004"
+      ],
+      "titles": {
+        "en": "Chapter 11 — Vedr, the Woodpile, and a Quiet Anchor",
+        "ru": "Глава 11 — Вэдр, поленница и тихий якорь"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_005/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_005/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_005",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_005",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-005"
+      ],
+      "titles": {
+        "en": "Chapter 12 — Soft Clay",
+        "ru": "Глава 12 — Мягкая глина"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_006/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_006/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_006",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_006",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-006"
+      ],
+      "titles": {
+        "en": "Chapter 13 — Hot Water, Mud, and Other People's Blood",
+        "ru": "Глава 13 — Горячая вода, грязь и чужая кровь"
+      }
+    },
+    {
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_007/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_007/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_007",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_007",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-007"
+      ],
+      "titles": {
+        "en": "Chapter 14 — Dirty Bandages, Tart Decoction, and a Low Hum",
+        "ru": "Глава 14 — Грязные бинты, терпкий отвар и низкий гул"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/season-01/episode-03.png"
+      },
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_03",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_03/chapter_001",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-03",
+        "chapter-001"
+      ],
+      "titles": {
+        "en": "Chapter 15 — Wheels, Wet Rope, and the Road Away",
+        "ru": "Глава 15 — Колёса, мокрая верёвка и дорога прочь"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/season-01/episode-03.png"
+      },
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_03",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_03/chapter_002",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-03",
+        "chapter-002"
+      ],
+      "titles": {
+        "en": "Chapter 16 — The Red Grid",
+        "ru": "Глава 16 — Красная сетка"
+      }
+    }
+  ]
+}

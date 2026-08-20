@@ -1,0 +1,70 @@
+{
+  "approved_through": "season_01/episode_01/chapter_001",
+  "channels": {},
+  "collections": {},
+  "hierarchy": [
+    {
+      "display": "separate",
+      "level": "season"
+    },
+    {
+      "display": "separate",
+      "level": "episode"
+    },
+    {
+      "display": "separate",
+      "level": "chapter"
+    }
+  ],
+  "id": "reborn_as_llm",
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "release_unit": "chapter",
+  "schema_version": 1,
+  "slug": "reborn_as_llm",
+  "titles": {
+    "en": "Reborn as an LLM",
+    "ru": "Перерождение в LLM"
+  },
+  "units": [
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_001/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_001",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-001"
+      ],
+      "titles": {
+        "en": "Chapter 1 — Scheduled Death and Corporate Onboarding",
+        "ru": "Глава 1 — Смерть по расписанию и корпоративный онбординг"
+      }
+    }
+  ]
+}

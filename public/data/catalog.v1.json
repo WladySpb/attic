@@ -1,0 +1,106 @@
+{
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "schema_version": 1,
+  "titles": [
+    {
+      "artwork": {
+        "alt": {
+          "en": "The observation station crew",
+          "ru": "Экипаж станции наблюдателей"
+        },
+        "focal_point": "50% 50%",
+        "key": "interstellar-spectators/cover.png"
+      },
+      "availability": {
+        "en": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/interstellar_spectators.v1.json",
+          "unit_count": 2
+        },
+        "ru": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/interstellar_spectators.v1.json",
+          "unit_count": 2
+        }
+      },
+      "href": "titles/interstellar_spectators.v1.json",
+      "id": "interstellar_spectators",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug": "interstellar_spectators",
+      "titles": {
+        "en": "Interstellar Spectators",
+        "ru": "Межзвёздные наблюдатели"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/cover.png"
+      },
+      "availability": {
+        "en": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/rebirth_and_die_another_way.v1.json",
+          "unit_count": 16
+        },
+        "ru": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/rebirth_and_die_another_way.v1.json",
+          "unit_count": 16
+        }
+      },
+      "href": "titles/rebirth_and_die_another_way.v1.json",
+      "id": "rebirth_and_die_another_way",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug": "rebirth_and_die_another_way",
+      "titles": {
+        "en": "Reborn to Die... Another Way!",
+        "ru": "Переродиться и умереть... Другим способом!"
+      }
+    },
+    {
+      "availability": {
+        "en": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/reborn_as_llm.v1.json",
+          "unit_count": 1
+        },
+        "ru": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/reborn_as_llm.v1.json",
+          "unit_count": 1
+        }
+      },
+      "href": "titles/reborn_as_llm.v1.json",
+      "id": "reborn_as_llm",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug": "reborn_as_llm",
+      "titles": {
+        "en": "Reborn as an LLM",
+        "ru": "Перерождение в LLM"
+      }
+    }
+  ]
+}
