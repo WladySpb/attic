@@ -2,11 +2,11 @@
   "approved_through": "season_01/episode_03/chapter_002",
   "artwork": {
     "alt": {
-      "en": "Alex looks toward a city in a new world at sunset",
-      "ru": "Алекс смотрит на город нового мира на закате"
+      "en": "Alex between a truck and the road into a fantasy world",
+      "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
     },
-    "focal_point": "50% 45%",
-    "key": "reborn-to-die-another-way/cover.png"
+    "focal_point": "50% 50%",
+    "key": "reborn-to-die-another-way/cover-v2.png"
   },
   "channels": {},
   "collections": {},
@@ -38,6 +38,14 @@
   },
   "units": [
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_001/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_001/ru.v1.json"
@@ -75,6 +83,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_002/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_002/ru.v1.json"
@@ -112,6 +128,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_003/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_003/ru.v1.json"
@@ -149,6 +173,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_004/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_004/ru.v1.json"
@@ -186,6 +218,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_005/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_005/ru.v1.json"
@@ -223,6 +263,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_006/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_006/ru.v1.json"
@@ -260,6 +308,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex between a truck and the road into a fantasy world",
+          "ru": "Алекс между грузовиком и дорогой в фэнтезийный мир"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-01-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_007/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_01/chapter_007/ru.v1.json"
@@ -297,6 +353,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_001/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_001/ru.v1.json"
@@ -334,6 +398,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_002/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_002/ru.v1.json"
@@ -371,6 +443,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_003/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_003/ru.v1.json"
@@ -408,6 +488,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_004/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_004/ru.v1.json"
@@ -445,6 +533,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_005/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_005/ru.v1.json"
@@ -482,6 +578,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_006/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_006/ru.v1.json"
@@ -519,6 +623,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex helps the villagers repel a night attack by forest creatures",
+          "ru": "Алекс помогает жителям деревни отбить ночную атаку лесных тварей"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-to-die-another-way/season-01/episode-02-v1.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_007/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_02/chapter_007/ru.v1.json"
@@ -556,14 +668,6 @@
       }
     },
     {
-      "artwork": {
-        "alt": {
-          "en": "Alex looks toward a city in a new world at sunset",
-          "ru": "Алекс смотрит на город нового мира на закате"
-        },
-        "focal_point": "50% 45%",
-        "key": "reborn-to-die-another-way/season-01/episode-03.png"
-      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/ru.v1.json"
@@ -601,14 +705,6 @@
       }
     },
     {
-      "artwork": {
-        "alt": {
-          "en": "Alex looks toward a city in a new world at sunset",
-          "ru": "Алекс смотрит на город нового мира на закате"
-        },
-        "focal_point": "50% 45%",
-        "key": "reborn-to-die-another-way/season-01/episode-03.png"
-      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/ru.v1.json"

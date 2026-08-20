@@ -73,3 +73,11 @@ test("long fenced code lines wrap without changing publication sources", async (
   assert.match(css, /\.reader-body pre \{[^}]*overflow-wrap:anywhere;[^}]*white-space:pre-wrap;[^}]*word-break:break-word;/);
   assert.match(css, /\.reader-body pre code \{[^}]*white-space:inherit;/);
 });
+
+test("a terminal single chapter links back to the library", async () => {
+  const response = await render("/ru/reborn-as-llm/season-01/episode-01/chapter-001");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /class="chapter-nav single"/);
+  assert.match(html, /<a href="\/ru">←\s*(?:<!-- -->)?Библиотека<\/a>/);
+});

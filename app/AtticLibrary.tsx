@@ -70,9 +70,11 @@ export function AtticLibrary(model: PageModel) {
           {unit.artwork && <figure className="reader-art"><Image unoptimized width={1600} height={900} src={imageUrl(unit.artwork.key)!} alt={textFor(unit.artwork.alt, language)} style={{ objectPosition: unit.artwork.focal_point || "50% 50%" }} /></figure>}
           <p className="reader-series">{textFor(detail.titles, language)}</p><h1>{content.title}</h1>
           <div className="reader-body"><ReactMarkdown>{content.markdown}</ReactMarkdown></div>
-          <nav className="chapter-nav" aria-label="Chapter navigation">
-            {previous ? <a href={unitRoutePath(language, detail.slug, previous)}>← {labels.previous}<small>{textFor(previous.titles, language)}</small></a> : <span />}
-            {next ? <a href={unitRoutePath(language, detail.slug, next)}>{labels.next} →<small>{textFor(next.titles, language)}</small></a> : <span />}
+          <nav className={`chapter-nav ${!previous && !next ? "single" : ""}`} aria-label="Chapter navigation">
+            {!previous && !next ? <a href={`/${language}`}>← {labels.library}</a> : <>
+              {previous ? <a href={unitRoutePath(language, detail.slug, previous)}>← {labels.previous}<small>{textFor(previous.titles, language)}</small></a> : <span />}
+              {next ? <a href={unitRoutePath(language, detail.slug, next)}>{labels.next} →<small>{textFor(next.titles, language)}</small></a> : <span />}
+            </>}
           </nav>
         </article>
       ) : detail ? (
