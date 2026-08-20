@@ -16,7 +16,11 @@ test("server-renders the Attic shell and social metadata", async () => {
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
   const html = await response.text();
-  assert.match(html, /<title>Stories worth lingering over · Attic<\/title>/i);
+  assert.match(html, /<title>Wlady&#x27;s Attic<\/title>/i);
+  assert.match(html, /aria-label="English"/);
+  assert.match(html, /aria-label="Russian"/);
+  assert.doesNotMatch(html, /Language availability is shown for every story|Доступность языка указана для каждой истории/);
+  assert.match(html, /Books written together with AI/);
   assert.match(html, /Stories live a little longer in the attic/);
   assert.match(html, /property="og:image" content="http:\/\/localhost:3000\/og.png"/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
@@ -35,7 +39,7 @@ test("a shareable episode URL server-renders localized content and SEO metadata"
   const response = await render(path);
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /<title>Барбенгеймер и крах объективности · Attic<\/title>/);
+  assert.match(html, /<title>Барбенгеймер и крах объективности · Чердачок Влади<\/title>/);
   assert.match(html, /<h1>Барбенгеймер и крах объективности<\/h1>/);
   assert.match(html, /rel="canonical" href="http:\/\/localhost:3000\/ru\/interstellar-spectators\/chronicles\/barbenheimer-collapse-of-objectivity"/);
   assert.match(html, /hreflang="en"/);

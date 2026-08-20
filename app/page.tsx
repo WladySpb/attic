@@ -3,7 +3,7 @@ import { AtticLibrary } from "./AtticLibrary";
 import { catalog } from "./publication-data";
 
 export const metadata: Metadata = {
-  title: "Stories worth lingering over",
+  title: { absolute: "Wlady's Attic" },
   description: "A quiet multilingual library for serial fiction.",
   alternates: {
     canonical: "/en",

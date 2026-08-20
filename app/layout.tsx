@@ -5,16 +5,16 @@ const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
-  title: { default: "Attic", template: "%s · Attic" },
+  title: { default: "Wlady's Attic", template: "%s · Wlady's Attic" },
   description: "A quiet multilingual library for serial fiction.",
   openGraph: {
-    title: "Attic",
+    title: "Wlady's Attic",
     description: "Stories worth lingering over",
-    images: [{ url: "/og.png", width: 1733, height: 908, alt: "Attic — Stories worth lingering over" }],
+    images: [{ url: "/og.png", width: 1733, height: 908, alt: "Wlady's Attic — Stories worth lingering over" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Attic",
+    title: "Wlady's Attic",
     description: "Stories worth lingering over",
     images: ["/og.png"],
   },

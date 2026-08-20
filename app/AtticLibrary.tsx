@@ -7,9 +7,14 @@ import type { CatalogTitle, HierarchyNode, PageModel, TitleDetail, Unit } from "
 import { localizedPath, textFor, titlePath, unitRoutePath } from "./publication-types";
 
 const copy = {
-  en: { library: "Library", about: "About", kicker: "Come upstairs. Take your time.", headline: "Stories live a little longer in the attic.", lede: "Settle in, choose a story, and stay as long as you like.", browse: "Browse the library", cadence: "New chapters arrive at their own unhurried pace.", choose: "Choose a shelf", availability: "Language availability is shown for every story.", open: "Open this book", unavailable: "Not available in English", back: "Back to the library", read: "Read", empty: "No chapters are available in this language yet.", previous: "Previous", next: "Next", contents: "Contents", note: "A note from the keeper", quote: "No feeds to outrun. No noise to keep up with. Just a lamp, a chapter, and enough time.", season: "Season", episode: "Episode", chapter: "Chapter", smaller: "Smaller text", larger: "Larger text" },
-  ru: { library: "Библиотека", about: "О проекте", kicker: "Поднимайтесь. Здесь некуда спешить.", headline: "На чердаке истории живут немного дольше.", lede: "Устраивайтесь поудобнее, выбирайте историю — и оставайтесь столько, сколько захочется.", browse: "Открыть библиотеку", cadence: "Новые главы появляются здесь в своём неспешном ритме.", choose: "Выберите полку", availability: "Доступность языка указана для каждой истории.", open: "Открыть книгу", unavailable: "Пока недоступно на русском", back: "Назад в библиотеку", read: "Читать", empty: "На этом языке пока нет доступных глав.", previous: "Назад", next: "Дальше", contents: "Оглавление", note: "Записка хранителя", quote: "Никаких лент, которые надо догонять. Никакого шума. Только лампа, глава и достаточно времени.", season: "Сезон", episode: "Эпизод", chapter: "Глава", smaller: "Уменьшить текст", larger: "Увеличить текст" },
+  en: { siteName: "Wlady's Attic", home: "Wlady's Attic home", language: "Choose language", library: "Library", about: "About", kicker: "Come upstairs. Take your time.", headline: "Stories live a little longer in the attic.", lede: "Settle in, choose a story, and stay as long as you like.", browse: "Browse the library", cadence: "New chapters arrive at their own unhurried pace.", choose: "Choose a shelf", open: "Open this book", unavailable: "Not available in English", back: "Back to the library", read: "Read", empty: "No chapters are available in this language yet.", previous: "Previous", next: "Next", contents: "Contents", aboutTitle: "Books written together with AI", aboutBody: "Wlady's Attic is a home for books and serial stories created by a human author in collaboration with artificial intelligence. The author shapes the worlds, characters, and direction of each story; AI takes part as a creative and editorial partner.", quote: "No feeds to outrun. No noise to keep up with. Just a lamp, a chapter, and enough time.", season: "Season", episode: "Episode", chapter: "Chapter", smaller: "Smaller text", larger: "Larger text" },
+  ru: { siteName: "Чердачок Влади", home: "На главную Чердачка Влади", language: "Выбрать язык", library: "Библиотека", about: "О проекте", kicker: "Поднимайтесь. Здесь некуда спешить.", headline: "На чердаке истории живут немного дольше.", lede: "Устраивайтесь поудобнее, выбирайте историю — и оставайтесь столько, сколько захочется.", browse: "Открыть библиотеку", cadence: "Новые главы появляются здесь в своём неспешном ритме.", choose: "Выберите полку", open: "Открыть книгу", unavailable: "Пока недоступно на русском", back: "Назад в библиотеку", read: "Читать", empty: "На этом языке пока нет доступных глав.", previous: "Назад", next: "Дальше", contents: "Оглавление", aboutTitle: "Книги, написанные вместе с ИИ", aboutBody: "Чердачок Влади — дом для книг и сериалов, созданных человеком в соавторстве с искусственным интеллектом. Автор задаёт мир, героев и направление каждой истории, а ИИ участвует в творческой и редакторской работе.", quote: "Никаких лент, которые надо догонять. Никакого шума. Только лампа, глава и достаточно времени.", season: "Сезон", episode: "Эпизод", chapter: "Глава", smaller: "Уменьшить текст", larger: "Увеличить текст" },
 } as const;
+
+const languageDisplay: Record<string, { flag: string; en: string; ru: string }> = {
+  en: { flag: "🇬🇧", en: "English", ru: "Английский" },
+  ru: { flag: "🇷🇺", en: "Russian", ru: "Русский" },
+};
 
 function numberedLabel(node: HierarchyNode, language: string) {
   if (node.titles) return textFor(node.titles, language);
@@ -45,19 +50,23 @@ export function AtticLibrary(model: PageModel) {
   return (
     <main>
       <header className="topbar">
-        <a className="brand" href={`/${language}`} aria-label="Attic home"><span className="brand-mark">A</span><span>Attic</span></a>
+        <a className="brand" href={`/${language}`} aria-label={labels.home}><span className="brand-mark">A</span><span>{labels.siteName}</span></a>
         <nav aria-label="Main navigation">
           {!detail && <a href="#library">{labels.library}</a>}
           {!detail && <a href="#about">{labels.about}</a>}
-          <select className="language" value={language} onChange={(event) => switchLanguage(event.target.value)} aria-label="Language">
-            {languageOptions.map((item) => <option value={item} key={item}>{item.toUpperCase()}</option>)}
-          </select>
+          <div className="language-switch" role="group" aria-label={labels.language}>
+            {languageOptions.map((item) => {
+              const display = languageDisplay[item];
+              const name = display?.[language === "ru" ? "ru" : "en"] || item.toUpperCase();
+              return <button className={`language-flag ${item === language ? "active" : ""}`} type="button" key={item} title={name} aria-label={name} aria-pressed={item === language} disabled={item === language} onClick={() => switchLanguage(item)}><span aria-hidden="true">{display?.flag || item.toUpperCase()}</span></button>;
+            })}
+          </div>
         </nav>
       </header>
 
       {content && unit && detail ? (
         <article className="reader" style={{ "--reader-scale": readerScale } as React.CSSProperties}>
-          <div className="reader-tools"><a href={titlePath(language, detail.slug)}>← {labels.contents}</a><div><button aria-label={labels.smaller} onClick={() => setReaderScale(Math.max(.85, readerScale - .08))}>A−</button><button aria-label={labels.larger} onClick={() => setReaderScale(Math.min(1.25, readerScale + .08))}>A+</button></div></div>
+          <div className="reader-tools"><a href={titlePath(language, detail.slug)}>← {labels.contents}</a><div><button aria-label={labels.smaller} onClick={() => setReaderScale((scale) => Math.max(.8, scale - .15))}>A−</button><button aria-label={labels.larger} onClick={() => setReaderScale((scale) => Math.min(1.8, scale + .15))}>A+</button></div></div>
           {unit.artwork && <figure className="reader-art"><Image unoptimized width={1600} height={900} src={imageUrl(unit.artwork.key)!} alt={textFor(unit.artwork.alt, language)} style={{ objectPosition: unit.artwork.focal_point || "50% 50%" }} /></figure>}
           <p className="reader-series">{textFor(detail.titles, language)}</p><h1>{content.title}</h1>
           <div className="reader-body"><ReactMarkdown>{content.markdown}</ReactMarkdown></div>
@@ -81,10 +90,10 @@ export function AtticLibrary(model: PageModel) {
       ) : (
         <>
           <section className="hero" id="top"><div className="hero-copy"><p className="kicker">{labels.kicker}</p><h1>{labels.headline}</h1><p className="lede">{labels.lede}</p><a className="primary" href="#library">{labels.browse} <span>→</span></a><p className="small-note">{labels.cadence}</p></div><div className="hero-image" role="img" aria-label="A sunlit attic reading nook"><p>{language === "ru" ? "ваше кресло ждёт" : "your chair is waiting"}</p></div></section>
-          <section className="library" id="library"><div className="section-heading"><div><p className="kicker">{labels.library}</p><h2>{labels.choose}</h2></div><p>{labels.availability}</p></div>
+          <section className="library" id="library"><div className="section-heading"><div><p className="kicker">{labels.library}</p><h2>{labels.choose}</h2></div></div>
             <div className="shelves">{catalog.titles.map((title, index) => <CatalogCard key={title.id} title={title} index={index} language={language} labels={labels} />)}</div>
           </section>
-          <section className="about" id="about"><p className="kicker">{labels.note}</p><blockquote>“{labels.quote}”</blockquote></section>
+          <section className="about" id="about"><div><p className="kicker">{labels.about}</p><h2>{labels.aboutTitle}</h2></div><div className="about-copy"><p>{labels.aboutBody}</p><blockquote>“{labels.quote}”</blockquote></div></section>
         </>
       )}
     </main>
@@ -94,7 +103,7 @@ export function AtticLibrary(model: PageModel) {
 function CatalogCard({ title, index, language, labels }: { title: CatalogTitle; index: number; language: string; labels: typeof copy.en | typeof copy.ru }) {
   const availability = title.availability[language];
   const disabled = !availability?.clickable;
-  const contents = <>{title.artwork && <span className="book-card-art"><Image unoptimized width={1200} height={675} src={imageUrl(title.artwork.key)!} alt={textFor(title.artwork.alt, language)} style={{ objectPosition: title.artwork.focal_point || "50% 50%" }} /></span>}<span className="book-spine" /><span className="eyebrow">{availability?.unit_count || 0} · {title.languages.map((item) => item.toUpperCase()).join(" / ")}</span><strong>{textFor(title.titles, language)}</strong><span className="rule" /><span className="book-note">{disabled ? labels.unavailable : labels.availability}</span><span className="open-label">{disabled ? labels.unavailable : `${labels.open} ↗`}</span></>;
+  const contents = <>{title.artwork && <span className="book-card-art"><Image unoptimized width={1200} height={675} src={imageUrl(title.artwork.key)!} alt={textFor(title.artwork.alt, language)} style={{ objectPosition: title.artwork.focal_point || "50% 50%" }} /></span>}<span className="book-spine" /><span className="eyebrow">{availability?.unit_count || 0} · {title.languages.map((item) => item.toUpperCase()).join(" / ")}</span><strong>{textFor(title.titles, language)}</strong><span className="rule" />{disabled && <span className="book-note">{labels.unavailable}</span>}<span className="open-label">{disabled ? labels.unavailable : `${labels.open} ↗`}</span></>;
   const className = `book-card tone-${index % 3} ${title.artwork ? "has-artwork" : ""}`;
   if (disabled) return <article className={`${className} disabled`}>{contents}</article>;
   return <a className={className} href={titlePath(language, title.slug)}>{contents}</a>;
