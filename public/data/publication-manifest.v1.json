@@ -44,22 +44,24 @@
     "titles/reborn_as_llm.v1.json"
   ],
   "media_files": [
-    "interstellar-spectators/cover.png",
+    "interstellar-spectators/cover-v2.png",
     "interstellar-spectators/season-01/episode-01.png",
     "interstellar-spectators/season-01/episode-02.png",
+    "reborn-as-llm/cover-v1.png",
     "reborn-to-die-another-way/cover.png",
     "reborn-to-die-another-way/season-01/episode-03.png"
   ],
   "media_sha256": {
-    "interstellar-spectators/cover.png": "053c03089fe92bbbbfb962dad9e5831739509848737bb4b3df8ce0aa4ed73043",
+    "interstellar-spectators/cover-v2.png": "954a71af45b7f51ffd9509b98df57f74338ca0caf10795c8c6d640916fcfc8b6",
     "interstellar-spectators/season-01/episode-01.png": "2cbebdfcc194adb0b17166aab977bbd2e7ec331a10a5a9615a505add08119647",
     "interstellar-spectators/season-01/episode-02.png": "c6a473bc5e4b830d2c0e7a1ec749dedc7628c663a76ea7d3b5d65668ab97cd0d",
+    "reborn-as-llm/cover-v1.png": "72e4d73d0670191091a15b356af2dac044a8437da03c102cc94644acb054730d",
     "reborn-to-die-another-way/cover.png": "5c21df957124f5279d7fb0db2222f73f2afbf6e3721f5a8ff98a6267f00adfa8",
     "reborn-to-die-another-way/season-01/episode-03.png": "5c21df957124f5279d7fb0db2222f73f2afbf6e3721f5a8ff98a6267f00adfa8"
   },
   "schema_version": 1,
   "sha256": {
-    "catalog.v1.json": "a74de1e2d8cc97717b96f32538baea6c530f2abb3c1334c269b4f462a1570743",
+    "catalog.v1.json": "6a177fecfd4a78c7bfaa91c74f838befa819c83e9b1a7193207b7dd07146ca89",
     "content/interstellar_spectators/season_01/episode_01/en.v1.json": "eff6b3b6dcd7c48be5176dcc5c0184773a7f3a1fcaba4bc4e5083017369c385c",
     "content/interstellar_spectators/season_01/episode_01/ru.v1.json": "f60edf9c9d4aaa0325c8a12c615cdd2b8aa193a84fd2a92c1556fefd7eefbced",
     "content/interstellar_spectators/season_01/episode_02/en.v1.json": "c634416930baa62faf5780f7e6b39f203c140af1f4be9850325a9f53c1209e48",
@@ -98,8 +100,8 @@
     "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/ru.v1.json": "af7db4c8b3e88082b509457695d3279a51f4ce77ea38ff144e2c283728ad7326",
     "content/reborn_as_llm/season_01/episode_01/chapter_001/en.v1.json": "d4df6e4b27b4442ff90b3deeb630f854ba2b5c341967ac8fede1e0698f0bcf7c",
     "content/reborn_as_llm/season_01/episode_01/chapter_001/ru.v1.json": "7d77f2a892ec7695591b2e7798665633e9581cca3efcadbdb9813d659a7cb325",
-    "titles/interstellar_spectators.v1.json": "39b230f0b37de654fa8ff8075b21adba39d11a30a2eafba1ea9ae60605cbd804",
+    "titles/interstellar_spectators.v1.json": "64de12571cd92eede208d84d16bb773dd6779619214175528eda879edcf045cc",
     "titles/rebirth_and_die_another_way.v1.json": "3644dbb05d391f74432b614936955f8e79d2c85a1892517b0a46b3ae29aa4cc4",
-    "titles/reborn_as_llm.v1.json": "c62899282931b1772053592ac833b45799b9865b8255ac9a2653e22a5d5a7bdc"
+    "titles/reborn_as_llm.v1.json": "f417eed9e31de7f5cfce5e622f5ed4f424452da06bd900206115c348802354e5"
   }
 }

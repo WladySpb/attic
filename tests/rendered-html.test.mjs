@@ -59,3 +59,11 @@ test("client keeps unavailable translations visible without a link", async () =>
   assert.match(source, /if \(!available\) return <div className="unit disabled"/);
   assert.match(source, /const languageOptions = unit \? unit\.languages : catalog\.languages/);
 });
+
+test("cover artwork uses one crop ratio across cards and title pages", async () => {
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  const catalog = JSON.parse(await readFile(new URL("../public/data/catalog.v1.json", import.meta.url), "utf8"));
+  assert.match(css, /\.book-card-art \{ aspect-ratio:16\/7;/);
+  assert.match(css, /\.title-art \{ aspect-ratio:16\/7;/);
+  assert.equal(catalog.titles.find((title) => title.slug === "reborn_as_llm")?.artwork?.key, "reborn-as-llm/cover-v1.png");
+});

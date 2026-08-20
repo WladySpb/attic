@@ -32,8 +32,8 @@ h1 { font-size:clamp(3rem,5.5vw,5.5rem); font-weight:500; letter-spacing:-.055em
 .section-heading>p { color:var(--muted); line-height:1.5; max-width:390px; }
 .shelves { display:grid; gap:20px; grid-template-columns:repeat(3,1fr); }
 .book-card { background:#f5ead2; border:1px solid var(--line); border-radius:5px; box-shadow:0 12px 30px rgba(69,45,28,.09); color:inherit; cursor:pointer; display:flex; flex-direction:column; min-height:335px; overflow:hidden; padding:36px 32px 30px 43px; position:relative; text-align:left; transition:transform .2s ease,box-shadow .2s ease; }
-.book-card.has-artwork { min-height:440px; padding-top:205px; }
-.book-card-art { height:170px; left:10px; overflow:hidden; position:absolute; right:0; top:0; }
+.book-card.has-artwork { min-height:440px; padding-top:calc(43.75% + 30px); }
+.book-card-art { aspect-ratio:16/7; height:auto; left:10px; overflow:hidden; position:absolute; right:0; top:0; }
 .book-card-art::after { background:linear-gradient(180deg,transparent 55%,rgba(47,38,30,.24)); content:""; inset:0; position:absolute; }
 .book-card-art img { display:block; height:100%; object-fit:cover; width:100%; }
 .book-card:hover { box-shadow:0 17px 36px rgba(69,45,28,.15); transform:translateY(-4px); }

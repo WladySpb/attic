@@ -12,7 +12,7 @@
           "ru": "Экипаж станции наблюдателей"
         },
         "focal_point": "50% 50%",
-        "key": "interstellar-spectators/cover.png"
+        "key": "interstellar-spectators/cover-v2.png"
       },
       "availability": {
         "en": {
@@ -76,6 +76,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "availability": {
         "en": {
           "available": true,

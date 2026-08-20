@@ -1,5 +1,13 @@
 {
   "approved_through": "season_01/episode_01/chapter_001",
+  "artwork": {
+    "alt": {
+      "en": "Bruno awakens inside a language model",
+      "ru": "Бруно просыпается внутри языковой модели"
+    },
+    "focal_point": "50% 45%",
+    "key": "reborn-as-llm/cover-v1.png"
+  },
   "channels": {},
   "collections": {},
   "hierarchy": [
