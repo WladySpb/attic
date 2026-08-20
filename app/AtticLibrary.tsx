@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
@@ -46,7 +45,7 @@ export function AtticLibrary(model: PageModel) {
   return (
     <main>
       <header className="topbar">
-        <Link className="brand" href={`/${language}`} aria-label="Attic home"><span className="brand-mark">A</span><span>Attic</span></Link>
+        <a className="brand" href={`/${language}`} aria-label="Attic home"><span className="brand-mark">A</span><span>Attic</span></a>
         <nav aria-label="Main navigation">
           {!detail && <a href="#library">{labels.library}</a>}
           {!detail && <a href="#about">{labels.about}</a>}
@@ -58,18 +57,18 @@ export function AtticLibrary(model: PageModel) {
 
       {content && unit && detail ? (
         <article className="reader" style={{ "--reader-scale": readerScale } as React.CSSProperties}>
-          <div className="reader-tools"><Link href={titlePath(language, detail.slug)}>← {labels.contents}</Link><div><button aria-label={labels.smaller} onClick={() => setReaderScale(Math.max(.85, readerScale - .08))}>A−</button><button aria-label={labels.larger} onClick={() => setReaderScale(Math.min(1.25, readerScale + .08))}>A+</button></div></div>
+          <div className="reader-tools"><a href={titlePath(language, detail.slug)}>← {labels.contents}</a><div><button aria-label={labels.smaller} onClick={() => setReaderScale(Math.max(.85, readerScale - .08))}>A−</button><button aria-label={labels.larger} onClick={() => setReaderScale(Math.min(1.25, readerScale + .08))}>A+</button></div></div>
           {unit.artwork && <figure className="reader-art"><Image unoptimized width={1600} height={900} src={imageUrl(unit.artwork.key)!} alt={textFor(unit.artwork.alt, language)} style={{ objectPosition: unit.artwork.focal_point || "50% 50%" }} /></figure>}
           <p className="reader-series">{textFor(detail.titles, language)}</p><h1>{content.title}</h1>
           <div className="reader-body"><ReactMarkdown>{content.markdown}</ReactMarkdown></div>
           <nav className="chapter-nav" aria-label="Chapter navigation">
-            {previous ? <Link href={unitRoutePath(language, detail.slug, previous)}>← {labels.previous}<small>{textFor(previous.titles, language)}</small></Link> : <span />}
-            {next ? <Link href={unitRoutePath(language, detail.slug, next)}>{labels.next} →<small>{textFor(next.titles, language)}</small></Link> : <span />}
+            {previous ? <a href={unitRoutePath(language, detail.slug, previous)}>← {labels.previous}<small>{textFor(previous.titles, language)}</small></a> : <span />}
+            {next ? <a href={unitRoutePath(language, detail.slug, next)}>{labels.next} →<small>{textFor(next.titles, language)}</small></a> : <span />}
           </nav>
         </article>
       ) : detail ? (
         <section className="title-view">
-          <Link className="back" href={`/${language}`}>← {labels.back}</Link>
+          <a className="back" href={`/${language}`}>← {labels.back}</a>
           {detail.artwork && <div className="title-art"><Image unoptimized width={1600} height={900} src={imageUrl(detail.artwork.key)!} alt={textFor(detail.artwork.alt, language)} style={{ objectPosition: detail.artwork.focal_point || "50% 50%" }} /></div>}
           <p className="kicker">{detail.release_unit === "episode" ? (language === "ru" ? "Сериал" : "Serial") : (language === "ru" ? "Книга" : "Book")}</p>
           <h1>{textFor(detail.titles, language)}</h1>
@@ -98,7 +97,7 @@ function CatalogCard({ title, index, language, labels }: { title: CatalogTitle; 
   const contents = <>{title.artwork && <span className="book-card-art"><Image unoptimized width={1200} height={675} src={imageUrl(title.artwork.key)!} alt={textFor(title.artwork.alt, language)} style={{ objectPosition: title.artwork.focal_point || "50% 50%" }} /></span>}<span className="book-spine" /><span className="eyebrow">{availability?.unit_count || 0} · {title.languages.map((item) => item.toUpperCase()).join(" / ")}</span><strong>{textFor(title.titles, language)}</strong><span className="rule" /><span className="book-note">{disabled ? labels.unavailable : labels.availability}</span><span className="open-label">{disabled ? labels.unavailable : `${labels.open} ↗`}</span></>;
   const className = `book-card tone-${index % 3} ${title.artwork ? "has-artwork" : ""}`;
   if (disabled) return <article className={`${className} disabled`}>{contents}</article>;
-  return <Link className={className} href={titlePath(language, title.slug)}>{contents}</Link>;
+  return <a className={className} href={titlePath(language, title.slug)}>{contents}</a>;
 }
 
 function UnitLink({ detail, unit, language, labels }: { detail: TitleDetail; unit: Unit; language: string; labels: typeof copy.en | typeof copy.ru }) {
@@ -106,7 +105,7 @@ function UnitLink({ detail, unit, language, labels }: { detail: TitleDetail; uni
   const inline = unit.hierarchy.filter((item) => item.display === "inline").map((item) => numberedLabel(item, language));
   const contents = <><span>{inline.length > 0 && <em>{inline.join(" · ")}</em>}{textFor(unit.titles, language)}</span><small>{available ? labels.read : labels.unavailable} {available && "→"}</small></>;
   if (!available) return <div className="unit disabled" aria-disabled="true">{contents}</div>;
-  return <Link className="unit" href={unitRoutePath(language, detail.slug, unit)}>{contents}</Link>;
+  return <a className="unit" href={unitRoutePath(language, detail.slug, unit)}>{contents}</a>;
 }
 
 function HierarchyList({ detail, units, language, labels }: { detail: TitleDetail; units: Unit[]; language: string; labels: typeof copy.en | typeof copy.ru }) {
