@@ -11,7 +11,8 @@
     "start": "vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:media": "wrangler pages deploy public/media --project-name attic-media --branch main"
   },
   "dependencies": {
     "react": "19.2.6",

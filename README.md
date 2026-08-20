@@ -32,22 +32,25 @@ The build is a static export. Every language, title, episode, and chapter is pre
 shareable path. Optional collection and item slugs from `project.yml` produce human-readable paths;
 canonical address components are the stable fallback.
 
-## Cloudflare deployment
+## Production deployment
 
-The site is configured as a Cloudflare Worker with Static Assets in `wrangler.jsonc`. A production
-build publishes `dist/client`; unmatched routes use the generated `404.html` instead of an SPA
-fallback, and extensionless chapter URLs are canonicalized without a trailing slash.
+The website is deployed from `main` by `.github/workflows/deploy-pages.yml`. GitHub Actions builds
+the static export in `dist/client` and publishes it to GitHub Pages with the custom hostname
+`attic.wladyspb.pro`. The workflow sets `NEXT_PUBLIC_ASSET_BASE_URL=https://media.wladyspb.pro`, so
+the website repository contains image URLs but not the image files themselves.
 
-For Workers Builds, connect the GitHub repository and use:
+Artwork is deployed independently to the Cloudflare Pages Direct Upload project `attic-media`.
+After authenticating once with `npx wrangler login`, upload the current ignored media tree with:
 
-- Build command: `npm run build`
-- Deploy command: `npx wrangler deploy`
-- Production branch: `main`
+```powershell
+npm run deploy:media
+```
 
-Set `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_ASSET_BASE_URL` as build environment variables after the
-public site and media hostnames are chosen. The website hostname is attached as a Worker Custom
-Domain. The media hostname points to a public R2 bucket; production should not use the rate-limited
-`r2.dev` development URL.
+The media project uses `media.wladyspb.pro`; external authoritative DNS needs only a CNAME from that
+hostname to `attic-media.pages.dev`. Do not move the `wladyspb.pro` zone or change unrelated records.
+
+The earlier Worker configuration in `wrangler.jsonc` remains available as a preview/fallback and is
+not part of the GitHub Pages production path.
 
 ## Language behavior
 
