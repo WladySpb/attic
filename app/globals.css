@@ -79,8 +79,9 @@ blockquote { font-size:clamp(1.7rem,3vw,2.7rem); line-height:1.35; margin:0; }
 .reader-body p { margin:0 0 1.35em; }
 .reader-body h2,.reader-body h3 { font-weight:500; line-height:1.2; margin:2em 0 .8em; }
 .reader-body blockquote { border-left:3px solid var(--amber); color:#5e5145; font-size:1.05em; font-style:italic; margin:2em 0; padding-left:1.4em; text-align:left; }
-.reader-body pre { background:#302820; border-radius:4px; color:#f3e7d2; font-family:Consolas,monospace; line-height:1.55; overflow:auto; padding:20px; }
+.reader-body pre { background:#302820; border-radius:4px; color:#f3e7d2; font-family:Consolas,monospace; line-height:1.55; max-width:100%; overflow-wrap:anywhere; padding:20px; white-space:pre-wrap; word-break:break-word; }
 .reader-body code { font-family:Consolas,monospace; font-size:.86em; }
+.reader-body pre code { overflow-wrap:inherit; white-space:inherit; word-break:inherit; }
 .chapter-nav { border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 1fr; margin-top:75px; padding-top:22px; }
 .chapter-nav a { text-align:left; }
 .chapter-nav a:last-child { text-align:right; }

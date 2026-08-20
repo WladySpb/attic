@@ -67,3 +67,9 @@ test("cover artwork uses one crop ratio across cards and title pages", async () 
   assert.match(css, /\.title-art \{ aspect-ratio:16\/7;/);
   assert.equal(catalog.titles.find((title) => title.slug === "reborn_as_llm")?.artwork?.key, "reborn-as-llm/cover-v1.png");
 });
+
+test("long fenced code lines wrap without changing publication sources", async () => {
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(css, /\.reader-body pre \{[^}]*overflow-wrap:anywhere;[^}]*white-space:pre-wrap;[^}]*word-break:break-word;/);
+  assert.match(css, /\.reader-body pre code \{[^}]*white-space:inherit;/);
+});
