@@ -40,11 +40,18 @@ the static export in `dist/client` and publishes it to GitHub Pages with the cus
 the website repository contains image URLs but not the image files themselves.
 
 Artwork is deployed independently to the Cloudflare Pages Direct Upload project `attic-media`.
-After authenticating once with `npx wrangler login`, upload the current ignored media tree with:
+For a one-off interactive upload, authenticate temporarily, deploy the current ignored media tree,
+then revoke the broad Wrangler OAuth session:
 
 ```powershell
+npx wrangler login
 npm run deploy:media
+npx wrangler logout
 ```
+
+For unattended publishing, use `CLOUDFLARE_API_TOKEN` with only **Cloudflare Pages: Edit**, scoped to
+the Attic Cloudflare account. Do not use a Global API Key or retain the broader interactive OAuth
+grant.
 
 The media project uses `media.wladyspb.pro`; external authoritative DNS needs only a CNAME from that
 hostname to `attic-media.pages.dev`. Do not move the `wladyspb.pro` zone or change unrelated records.
