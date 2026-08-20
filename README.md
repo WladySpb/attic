@@ -32,6 +32,23 @@ The build is a static export. Every language, title, episode, and chapter is pre
 shareable path. Optional collection and item slugs from `project.yml` produce human-readable paths;
 canonical address components are the stable fallback.
 
+## Cloudflare deployment
+
+The site is configured as a Cloudflare Worker with Static Assets in `wrangler.jsonc`. A production
+build publishes `dist/client`; unmatched routes use the generated `404.html` instead of an SPA
+fallback, and extensionless chapter URLs are canonicalized without a trailing slash.
+
+For Workers Builds, connect the GitHub repository and use:
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Production branch: `main`
+
+Set `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_ASSET_BASE_URL` as build environment variables after the
+public site and media hostnames are chosen. The website hostname is attached as a Worker Custom
+Domain. The media hostname points to a public R2 bucket; production should not use the rate-limited
+`r2.dev` development URL.
+
 ## Language behavior
 
 - Catalog languages are the union of languages found in generated content.
