@@ -668,6 +668,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/season-01/episode-03.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_001/ru.v1.json"
@@ -705,6 +713,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/season-01/episode-03.png"
+      },
       "content": {
         "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/en.v1.json",
         "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_002/ru.v1.json"
