@@ -75,6 +75,12 @@ test("long fenced code lines wrap without changing publication sources", async (
   assert.match(css, /\.reader-body pre code \{[^}]*white-space:inherit;/);
 });
 
+test("mobile navigation hides only topbar links, not chapter controls", async () => {
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(css, /\.topbar nav>a \{ display:none; \}/);
+  assert.doesNotMatch(css, /(?<!\.topbar )nav a \{ display:none; \}/);
+});
+
 test("a title with no adjacent chapters links back to the library", async () => {
   const source = await readFile(new URL("../app/AtticLibrary.tsx", import.meta.url), "utf8");
   assert.match(source, /!previous && !next \? <a href={`\/\$\{language\}`}>(?:← )?\{labels\.library\}<\/a>/);
