@@ -15,6 +15,10 @@
     "deploy:media": "wrangler pages deploy public/media --project-name attic-media --branch main"
   },
   "dependencies": {
+    "@fontsource-variable/literata": "^5.3.0",
+    "@fontsource-variable/lora": "^5.3.0",
+    "@fontsource/noto-serif": "^5.3.0",
+    "@fontsource/pt-serif": "^5.3.0",
     "react": "19.2.6",
     "react-dom": "19.2.6",
     "react-markdown": "^10.1.0"

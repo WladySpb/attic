@@ -81,3 +81,24 @@ test("a terminal single chapter links back to the library", async () => {
   assert.match(html, /class="chapter-nav single"/);
   assert.match(html, /<a href="\/ru">←\s*(?:<!-- -->)?Библиотека<\/a>/);
 });
+
+test("reader exposes persistent full-screen display settings and a CSS paper page", async () => {
+  const response = await render("/en/reborn-as-llm/season-01/episode-01/chapter-001");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /aria-label="Reading settings"/);
+  assert.match(html, /class="reader-paper-frame"/);
+
+  const component = await readFile(new URL("../app/AtticLibrary.tsx", import.meta.url), "utf8");
+  const dto = await readFile(new URL("../app/reader-settings.ts", import.meta.url), "utf8");
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(dto, /attic\.reader-settings\.v1/);
+  assert.match(dto, /fontSize: number;[\s\S]*fontWeight: number;[\s\S]*pageWidth: number;[\s\S]*theme: ReaderTheme;/);
+  assert.match(component, /window\.localStorage\.getItem\(READER_SETTINGS_STORAGE_KEY\)/);
+  assert.match(component, /window\.localStorage\.setItem\(READER_SETTINGS_STORAGE_KEY/);
+  assert.match(component, /role="dialog" aria-modal="true"/);
+  assert.match(component, /Literata[\s\S]*Lora[\s\S]*PT Serif[\s\S]*Noto Serif/);
+  assert.match(css, /\.settings-screen \{[^}]*inset:0;[^}]*min-height:100dvh;[^}]*position:fixed;/);
+  assert.match(css, /\.reader-paper,.preview-paper \{[^}]*repeating-linear-gradient/);
+  assert.match(css, /\.reader-paper \{[^}]*clip-path:polygon/);
+});

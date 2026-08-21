@@ -1,4 +1,12 @@
 import type { Metadata } from "next";
+import "@fontsource-variable/literata";
+import "@fontsource-variable/lora";
+import "@fontsource/noto-serif/400.css";
+import "@fontsource/noto-serif/500.css";
+import "@fontsource/noto-serif/600.css";
+import "@fontsource/noto-serif/700.css";
+import "@fontsource/pt-serif/400.css";
+import "@fontsource/pt-serif/700.css";
 import "./globals.css";
 
 const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
