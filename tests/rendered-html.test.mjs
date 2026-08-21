@@ -26,12 +26,12 @@ test("server-renders the Attic shell and social metadata", async () => {
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
-test("publication dataset exposes the current 17 + 2 + 3 units", async () => {
+test("publication dataset exposes the current 17 + 5 + 3 units", async () => {
   const catalog = JSON.parse(await readFile(new URL("../public/data/catalog.v1.json", import.meta.url), "utf8"));
   assert.deepEqual(catalog.languages, ["en", "ru"]);
   assert.equal(catalog.titles.length, 3);
   const counts = Object.fromEntries(catalog.titles.map((title) => [title.slug, title.availability.en.unit_count]));
-  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 2 });
+  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 5 });
 });
 
 test("a shareable episode URL server-renders localized content and SEO metadata", async () => {

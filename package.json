@@ -9,10 +9,11 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run build && node --test tests/rendered-html.test.mjs tests/media-deploy.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "deploy": "npm run build && wrangler deploy",
-    "deploy:media": "wrangler pages deploy public/media --project-name attic-media --branch main"
+    "media:status": "node scripts/deploy-media.mjs --check",
+    "deploy:media": "node scripts/deploy-media.mjs"
   },
   "dependencies": {
     "@fontsource-variable/literata": "^5.3.0",

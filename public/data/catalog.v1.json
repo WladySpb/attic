@@ -89,13 +89,13 @@
           "available": true,
           "clickable": true,
           "href": "titles/reborn_as_llm.v1.json",
-          "unit_count": 2
+          "unit_count": 5
         },
         "ru": {
           "available": true,
           "clickable": true,
           "href": "titles/reborn_as_llm.v1.json",
-          "unit_count": 2
+          "unit_count": 5
         }
       },
       "href": "titles/reborn_as_llm.v1.json",

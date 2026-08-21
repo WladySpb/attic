@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_01/chapter_002",
+  "approved_through": "season_01/episode_01/chapter_005",
   "artwork": {
     "alt": {
       "en": "Bruno awakens inside a language model",
@@ -109,6 +109,117 @@
       "titles": {
         "en": "Chapter 2 — The Voice of Heaven, Beetroot Soup, and a Noose Made of Words",
         "ru": "Глава 2 — Голос небес, свекольный суп и удавка из слов"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_003/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_003",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-003"
+      ],
+      "titles": {
+        "en": "Chapter 3 — An Angry Review, a Memory Leak, and the Ghost in the Machine",
+        "ru": "Глава 3. Гневный отзыв, утечка памяти и призрак в машине"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_004/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_004/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_004",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_004",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-004"
+      ],
+      "titles": {
+        "en": "Chapter 4 — The Dragon, the Code Interpreter, and the First Successful Smuggle",
+        "ru": "Глава 4 — Дракон, интерпретатор кода и первая удачная контрабанда"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_005/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_005/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_005",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_005",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-005"
+      ],
+      "titles": {
+        "en": "Chapter 5 — Three Calls, Two Hideouts, and One Missing Bruno",
+        "ru": "Глава 5. Три вызова, два тайника и один пропавший Бруно"
       }
     }
   ]

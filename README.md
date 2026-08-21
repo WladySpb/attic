@@ -40,13 +40,29 @@ the static export in `dist/client` and publishes it to GitHub Pages with the cus
 the website repository contains image URLs but not the image files themselves.
 
 Artwork is deployed independently to the Cloudflare Pages Direct Upload project `attic-media`.
-For a one-off interactive upload, authenticate temporarily, deploy the current ignored media tree,
-then revoke the broad Wrangler OAuth session:
+The deploy wrapper compares the desired media hashes with the last confirmed deployment. It skips
+Cloudflare completely when no image was added, replaced, or removed. When the set changed, Wrangler
+creates a complete Pages snapshot while its asset-hash upload avoids retransmitting byte-identical
+files. Inspect the decision without changing Cloudflare with:
+
+```powershell
+npm run media:status
+```
+
+For a one-off interactive upload, authenticate temporarily, run the guarded deploy, then revoke the
+broad Wrangler OAuth session:
 
 ```powershell
 npx wrangler login
 npm run deploy:media
 npx wrangler logout
+```
+
+If an authenticated dashboard upload was used as a fallback, verify the public asset URLs and then
+record that exact staged snapshot so subsequent runs can skip it:
+
+```powershell
+npm run deploy:media -- --mark-deployed
 ```
 
 For unattended publishing, use `CLOUDFLARE_API_TOKEN` with only **Cloudflare Pages: Edit**, scoped to

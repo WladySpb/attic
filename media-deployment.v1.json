@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "project": "attic-media",
+  "media_sha256": {
+    "interstellar-spectators/cover-v2.png": "954a71af45b7f51ffd9509b98df57f74338ca0caf10795c8c6d640916fcfc8b6",
+    "interstellar-spectators/season-01/episode-01.png": "2cbebdfcc194adb0b17166aab977bbd2e7ec331a10a5a9615a505add08119647",
+    "interstellar-spectators/season-01/episode-02.png": "c6a473bc5e4b830d2c0e7a1ec749dedc7628c663a76ea7d3b5d65668ab97cd0d",
+    "interstellar-spectators/season-01/episode-03.png": "754d54563b8f7bb81d9b48516e26dd882fa736769377fc9ad7437f6b8b674abc",
+    "reborn-as-llm/cover-v1.png": "72e4d73d0670191091a15b356af2dac044a8437da03c102cc94644acb054730d",
+    "reborn-to-die-another-way/cover-v2.png": "884f821750e2fb48ad4f2f2707e93bd2908ce0372e91b1e3adca521e907a1f9d",
+    "reborn-to-die-another-way/season-01/episode-01-v1.png": "884f821750e2fb48ad4f2f2707e93bd2908ce0372e91b1e3adca521e907a1f9d",
+    "reborn-to-die-another-way/season-01/episode-02-v1.png": "18bed23b8a49e456dc3258e8294dff08f488d7cb61e035016073a010583f2833",
+    "reborn-to-die-another-way/season-01/episode-03.png": "5c21df957124f5279d7fb0db2222f73f2afbf6e3721f5a8ff98a6267f00adfa8"
+  }
+}

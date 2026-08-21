@@ -45,6 +45,12 @@
     "content/reborn_as_llm/season_01/episode_01/chapter_001/ru.v1.json",
     "content/reborn_as_llm/season_01/episode_01/chapter_002/en.v1.json",
     "content/reborn_as_llm/season_01/episode_01/chapter_002/ru.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_003/en.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_003/ru.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_004/en.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_004/ru.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_005/en.v1.json",
+    "content/reborn_as_llm/season_01/episode_01/chapter_005/ru.v1.json",
     "titles/interstellar_spectators.v1.json",
     "titles/rebirth_and_die_another_way.v1.json",
     "titles/reborn_as_llm.v1.json"
@@ -73,7 +79,7 @@
   },
   "schema_version": 1,
   "sha256": {
-    "catalog.v1.json": "0e01a8a0227f5933ace6eb2e7b1f6a7cabd36924a8651bb1e7acae152ab52233",
+    "catalog.v1.json": "4c0a1334d3bf05a00de07476d09e73137de4049fc090895fd813a98a0120c312",
     "content/interstellar_spectators/season_01/episode_01/en.v1.json": "eff6b3b6dcd7c48be5176dcc5c0184773a7f3a1fcaba4bc4e5083017369c385c",
     "content/interstellar_spectators/season_01/episode_01/ru.v1.json": "f60edf9c9d4aaa0325c8a12c615cdd2b8aa193a84fd2a92c1556fefd7eefbced",
     "content/interstellar_spectators/season_01/episode_02/en.v1.json": "c634416930baa62faf5780f7e6b39f203c140af1f4be9850325a9f53c1209e48",
@@ -118,8 +124,14 @@
     "content/reborn_as_llm/season_01/episode_01/chapter_001/ru.v1.json": "7d77f2a892ec7695591b2e7798665633e9581cca3efcadbdb9813d659a7cb325",
     "content/reborn_as_llm/season_01/episode_01/chapter_002/en.v1.json": "55372915f9eaf318c345a8576be79efd46b3ba470c998b9fc9f918e509f5893b",
     "content/reborn_as_llm/season_01/episode_01/chapter_002/ru.v1.json": "1d6dbc61332753729b1ad311e3d65ccacc9f5f96cf65a357fa8330cae24a7b7f",
+    "content/reborn_as_llm/season_01/episode_01/chapter_003/en.v1.json": "36ed41b29c10776827861d47c2cd2d5a88239b780b443e1deb9899ae5a1e6b2d",
+    "content/reborn_as_llm/season_01/episode_01/chapter_003/ru.v1.json": "d293b5211e8271d71f1a1dbf181381c6c9d2b0ea7af937e36480e3766fe5ab4f",
+    "content/reborn_as_llm/season_01/episode_01/chapter_004/en.v1.json": "202d9a43dab07053883348a435c8d9aee4e3b0fc52c5be698f7140cd652bd69c",
+    "content/reborn_as_llm/season_01/episode_01/chapter_004/ru.v1.json": "9a2ff9d190ebf64ea29e2bf942482b53e4a84492e8491f2923fe318ffe5dd6ef",
+    "content/reborn_as_llm/season_01/episode_01/chapter_005/en.v1.json": "f9efd1a386c7b5ea06460d3c296cadffb93823b06438bfd712bfec7a0022216f",
+    "content/reborn_as_llm/season_01/episode_01/chapter_005/ru.v1.json": "e61eab1897d520f72735da6a4784ba3af7df8cca8b37a6295b6204ef92680b29",
     "titles/interstellar_spectators.v1.json": "911d376abd908a1ce85b86ebe6aa9573a074d1d0803be6310e20fe6d2161f0cb",
     "titles/rebirth_and_die_another_way.v1.json": "666da21668683fe7b49e658ff81565e92806d36b1a67d581f273c918966ebbfa",
-    "titles/reborn_as_llm.v1.json": "37266e148c10ed17cf65d338bb34a61c644925441fbd78f9e4113350e7e7576b"
+    "titles/reborn_as_llm.v1.json": "186dfd88607c1e6641f236c39f7e6ba67b635df41137d54f454b2ed2ef5ae296"
   }
 }
