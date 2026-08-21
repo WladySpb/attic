@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_03/chapter_002",
+  "approved_through": "season_01/episode_03/chapter_003",
   "artwork": {
     "alt": {
       "en": "Alex between a truck and the road into a fantasy world",
@@ -755,6 +755,51 @@
       "titles": {
         "en": "Chapter 16 — The Red Grid",
         "ru": "Глава 16 — Красная сетка"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Alex looks toward a city in a new world at sunset",
+          "ru": "Алекс смотрит на город нового мира на закате"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-to-die-another-way/season-01/episode-03.png"
+      },
+      "content": {
+        "en": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_003/en.v1.json",
+        "ru": "content/rebirth_and_die_another_way/season_01/episode_03/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_03",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_03/chapter_003",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-03",
+        "chapter-003"
+      ],
+      "titles": {
+        "en": "Chapter 17 — The Fish That Speaks",
+        "ru": "Глава 17 — Рыба, которая говорит"
       }
     }
   ]

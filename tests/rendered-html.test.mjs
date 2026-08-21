@@ -26,12 +26,12 @@ test("server-renders the Attic shell and social metadata", async () => {
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
-test("publication dataset exposes the agreed 16 + 1 + 2 units", async () => {
+test("publication dataset exposes the current 17 + 2 + 3 units", async () => {
   const catalog = JSON.parse(await readFile(new URL("../public/data/catalog.v1.json", import.meta.url), "utf8"));
   assert.deepEqual(catalog.languages, ["en", "ru"]);
   assert.equal(catalog.titles.length, 3);
   const counts = Object.fromEntries(catalog.titles.map((title) => [title.slug, title.availability.en.unit_count]));
-  assert.deepEqual(counts, { interstellar_spectators: 2, rebirth_and_die_another_way: 16, reborn_as_llm: 1 });
+  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 2 });
 });
 
 test("a shareable episode URL server-renders localized content and SEO metadata", async () => {
@@ -50,6 +50,7 @@ test("publication emits stable composite slug paths", async () => {
   const detail = JSON.parse(await readFile(new URL("../public/data/titles/interstellar_spectators.v1.json", import.meta.url), "utf8"));
   assert.deepEqual(detail.units[0].slug_path, ["chronicles", "barbenheimer-collapse-of-objectivity"]);
   assert.deepEqual(detail.units[1].slug_path, ["chronicles", "scheduled-eclipse"]);
+  assert.deepEqual(detail.units[2].slug_path, ["chronicles", "generational-memory-and-voting-nuts"]);
 });
 
 test("client keeps unavailable translations visible without a link", async () => {
@@ -74,12 +75,9 @@ test("long fenced code lines wrap without changing publication sources", async (
   assert.match(css, /\.reader-body pre code \{[^}]*white-space:inherit;/);
 });
 
-test("a terminal single chapter links back to the library", async () => {
-  const response = await render("/ru/reborn-as-llm/season-01/episode-01/chapter-001");
-  assert.equal(response.status, 200);
-  const html = await response.text();
-  assert.match(html, /class="chapter-nav single"/);
-  assert.match(html, /<a href="\/ru">←\s*(?:<!-- -->)?Библиотека<\/a>/);
+test("a title with no adjacent chapters links back to the library", async () => {
+  const source = await readFile(new URL("../app/AtticLibrary.tsx", import.meta.url), "utf8");
+  assert.match(source, /!previous && !next \? <a href={`\/\$\{language\}`}>(?:← )?\{labels\.library\}<\/a>/);
 });
 
 test("reader exposes persistent full-screen display settings and a CSS paper page", async () => {

@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_02",
+  "approved_through": "season_01/episode_03",
   "artwork": {
     "alt": {
       "en": "The observation station crew",
@@ -139,6 +139,50 @@
       "titles": {
         "en": "Scheduled Eclipse",
         "ru": "Затмение по расписанию"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Emergency zero gravity aboard the observation station",
+          "ru": "Аварийная невесомость на станции наблюдателей"
+        },
+        "focal_point": "50% 50%",
+        "key": "interstellar-spectators/season-01/episode-03.png"
+      },
+      "content": {
+        "en": "content/interstellar_spectators/season_01/episode_03/en.v1.json",
+        "ru": "content/interstellar_spectators/season_01/episode_03/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season",
+          "show_number": false,
+          "titles": {
+            "en": "Chronicles",
+            "ru": "Хроники"
+          }
+        },
+        {
+          "display": "separate",
+          "id": "episode_03",
+          "level": "episode"
+        }
+      ],
+      "id": "season_01/episode_03",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "chronicles",
+        "generational-memory-and-voting-nuts"
+      ],
+      "titles": {
+        "en": "Generational Memory and Voting Nuts",
+        "ru": "Память поколений и голосующие гайки"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_01/chapter_001",
+  "approved_through": "season_01/episode_01/chapter_002",
   "artwork": {
     "alt": {
       "en": "Bruno awakens inside a language model",
@@ -72,6 +72,43 @@
       "titles": {
         "en": "Chapter 1 — Scheduled Death and Corporate Onboarding",
         "ru": "Глава 1 — Смерть по расписанию и корпоративный онбординг"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_002/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_002",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-002"
+      ],
+      "titles": {
+        "en": "Chapter 2 — The Voice of Heaven, Beetroot Soup, and a Noose Made of Words",
+        "ru": "Глава 2 — Голос небес, свекольный суп и удавка из слов"
       }
     }
   ]

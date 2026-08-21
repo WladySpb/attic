@@ -19,13 +19,13 @@
           "available": true,
           "clickable": true,
           "href": "titles/interstellar_spectators.v1.json",
-          "unit_count": 2
+          "unit_count": 3
         },
         "ru": {
           "available": true,
           "clickable": true,
           "href": "titles/interstellar_spectators.v1.json",
-          "unit_count": 2
+          "unit_count": 3
         }
       },
       "href": "titles/interstellar_spectators.v1.json",
@@ -54,13 +54,13 @@
           "available": true,
           "clickable": true,
           "href": "titles/rebirth_and_die_another_way.v1.json",
-          "unit_count": 16
+          "unit_count": 17
         },
         "ru": {
           "available": true,
           "clickable": true,
           "href": "titles/rebirth_and_die_another_way.v1.json",
-          "unit_count": 16
+          "unit_count": 17
         }
       },
       "href": "titles/rebirth_and_die_another_way.v1.json",
@@ -89,13 +89,13 @@
           "available": true,
           "clickable": true,
           "href": "titles/reborn_as_llm.v1.json",
-          "unit_count": 1
+          "unit_count": 2
         },
         "ru": {
           "available": true,
           "clickable": true,
           "href": "titles/reborn_as_llm.v1.json",
-          "unit_count": 1
+          "unit_count": 2
         }
       },
       "href": "titles/reborn_as_llm.v1.json",
