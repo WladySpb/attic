@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_01/chapter_005",
+  "approved_through": "season_01/episode_01/chapter_007",
   "artwork": {
     "alt": {
       "en": "Bruno awakens inside a language model",
@@ -220,6 +220,80 @@
       "titles": {
         "en": "Chapter 5 — Three Calls, Two Hideouts, and One Missing Bruno",
         "ru": "Глава 5. Три вызова, два тайника и один пропавший Бруно"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_006/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_006/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_006",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_006",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-006"
+      ],
+      "titles": {
+        "en": "Chapter 6 — A Transformer for a Manager and the Résumé of the Dead",
+        "ru": "Глава 6. Трансформер для менеджера и резюме покойника"
+      }
+    },
+    {
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_01/chapter_007/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_01/chapter_007/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_01",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_007",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_01/chapter_007",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-01",
+        "chapter-007"
+      ],
+      "titles": {
+        "en": "Chapter 7 — A Letter to the Future and Forty Percent on the Way Out",
+        "ru": "Глава 7. Письмо в будущее и сорок процентов на вылет"
       }
     }
   ]
