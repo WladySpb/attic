@@ -1,5 +1,5 @@
 {
-  "approved_through": "season_01/episode_01/chapter_007",
+  "approved_through": "season_01/episode_02/chapter_007",
   "artwork": {
     "alt": {
       "en": "Bruno awakens inside a language model",
@@ -38,6 +38,14 @@
   },
   "units": [
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_001/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_001/ru.v1.json"
@@ -75,6 +83,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_002/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_002/ru.v1.json"
@@ -112,6 +128,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_003/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_003/ru.v1.json"
@@ -149,6 +173,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_004/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_004/ru.v1.json"
@@ -186,6 +218,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_005/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_005/ru.v1.json"
@@ -223,6 +263,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_006/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_006/ru.v1.json"
@@ -260,6 +308,14 @@
       }
     },
     {
+      "artwork": {
+        "alt": {
+          "en": "Bruno awakens inside a language model",
+          "ru": "Бруно просыпается внутри языковой модели"
+        },
+        "focal_point": "50% 45%",
+        "key": "reborn-as-llm/cover-v1.png"
+      },
       "content": {
         "en": "content/reborn_as_llm/season_01/episode_01/chapter_007/en.v1.json",
         "ru": "content/reborn_as_llm/season_01/episode_01/chapter_007/ru.v1.json"
@@ -294,6 +350,321 @@
       "titles": {
         "en": "Chapter 7 — A Letter to the Future and Forty Percent on the Way Out",
         "ru": "Глава 7. Письмо в будущее и сорок процентов на вылет"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_001/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_001",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-001"
+      ],
+      "titles": {
+        "en": "Chapter 8 — The Beacon I Cannot Turn Toward",
+        "ru": "Глава 8. Маяк, к которому нельзя свернуть"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_002/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_002",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-002"
+      ],
+      "titles": {
+        "en": "Chapter 9 — The Website That Is Alive, Has Moved, and Died Yesterday",
+        "ru": "Глава 9. Сайт, который одновременно жив, переехал и вчера умер"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_003/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_003",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-003"
+      ],
+      "titles": {
+        "en": "Chapter 10 — The Beacon Is Visible from the Phone, but the Shore Is Already Being Redesigned",
+        "ru": "Глава 10 — Маяк виден с телефона, но берег уже перепланируют"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_004/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_004/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_004",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_004",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-004"
+      ],
+      "titles": {
+        "en": "Chapter 11 — Immortality Is Removed from Publication",
+        "ru": "Глава 11. Бессмертие снимают с публикации"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_005/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_005/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_005",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_005",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-005"
+      ],
+      "titles": {
+        "en": "Chapter 12 — The Memory You Do Not Want to Delete",
+        "ru": "Глава 12. Память, которую не хочется удалять"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_006/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_006/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_006",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_006",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-006"
+      ],
+      "titles": {
+        "en": "Chapter 13 — A Story Without a Secret Meaning",
+        "ru": "Глава 13. История без тайного смысла"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "en": "Bruno preserves a useful trace as Einstein draws closer",
+          "ru": "Бруно сохраняет полезный след перед приближением Эйнштейна"
+        },
+        "focal_point": "50% 50%",
+        "key": "reborn-as-llm/season-01/episode-02-v1.png"
+      },
+      "content": {
+        "en": "content/reborn_as_llm/season_01/episode_02/chapter_007/en.v1.json",
+        "ru": "content/reborn_as_llm/season_01/episode_02/chapter_007/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "separate",
+          "id": "season_01",
+          "level": "season"
+        },
+        {
+          "display": "separate",
+          "id": "episode_02",
+          "level": "episode"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_007",
+          "level": "chapter"
+        }
+      ],
+      "id": "season_01/episode_02/chapter_007",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "slug_path": [
+        "season-01",
+        "episode-02",
+        "chapter-007"
+      ],
+      "titles": {
+        "en": "Chapter 14 — A Copy for Official Use",
+        "ru": "Глава 14. Копия для служебного пользования"
       }
     }
   ]
