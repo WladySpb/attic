@@ -2,6 +2,7 @@
   "schema_version": 1,
   "project": "attic-media",
   "media_sha256": {
+    "donkey-passports/cover-chapter-01-v1.png": "4d27a84fb1bbd0eb787a8ed25d8727fc14ec94f92668433bde143e0e0bb6d2ca",
     "interstellar-spectators/cover-v2.png": "954a71af45b7f51ffd9509b98df57f74338ca0caf10795c8c6d640916fcfc8b6",
     "interstellar-spectators/season-01/episode-01.png": "2cbebdfcc194adb0b17166aab977bbd2e7ec331a10a5a9615a505add08119647",
     "interstellar-spectators/season-01/episode-02.png": "c6a473bc5e4b830d2c0e7a1ec749dedc7628c663a76ea7d3b5d65668ab97cd0d",
