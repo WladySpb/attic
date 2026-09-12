@@ -92,8 +92,8 @@ export function unitRoutePath(language: string, slug: string, unit: Unit) {
 }
 
 export function canonicalUnitId(parts: string[]) {
-  const canonical = parts.map((part) => part.replace(/^(season|episode|chapter)-(\d+)$/, "$1_$2"));
-  return canonical.every((part) => /^(season|episode|chapter)_\d+$/.test(part))
+  const canonical = parts.map((part) => part.replace(/^(season|episode|chapter|book)-(\d+)$/, "$1_$2"));
+  return canonical.every((part) => /^(season|episode|chapter|book)_\d+$/.test(part))
     ? canonical.join("/")
     : null;
 }

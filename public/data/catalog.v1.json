@@ -8,6 +8,38 @@
     {
       "artwork": {
         "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "availability": {
+        "en": {
+          "available": false,
+          "clickable": false,
+          "href": null,
+          "unit_count": 0
+        },
+        "ru": {
+          "available": true,
+          "clickable": true,
+          "href": "titles/donkey_passports.v1.json",
+          "unit_count": 1
+        }
+      },
+      "href": "titles/donkey_passports.v1.json",
+      "id": "donkey_passports",
+      "languages": [
+        "ru"
+      ],
+      "slug": "donkey_passports",
+      "titles": {
+        "ru": "Ослиные паспорта"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
           "en": "The observation station crew",
           "ru": "Экипаж станции наблюдателей"
         },

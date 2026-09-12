@@ -1,0 +1,69 @@
+{
+  "approved_through": "book_01/chapter_001",
+  "artwork": {
+    "alt": {
+      "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+    },
+    "focal_point": "50% 50%",
+    "key": "donkey-passports/cover-chapter-01-v1.png"
+  },
+  "channels": {},
+  "collections": {},
+  "hierarchy": [
+    {
+      "display": "hidden",
+      "level": "book"
+    },
+    {
+      "display": "separate",
+      "level": "chapter"
+    }
+  ],
+  "id": "donkey_passports",
+  "languages": [
+    "ru"
+  ],
+  "release_unit": "chapter",
+  "schema_version": 1,
+  "slug": "donkey_passports",
+  "titles": {
+    "ru": "Ослиные паспорта"
+  },
+  "units": [
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_001/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_001",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_001",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-001"
+      ],
+      "titles": {
+        "ru": "Глава 1 — Один ключ на двоих"
+      }
+    }
+  ]
+}
