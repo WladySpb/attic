@@ -26,12 +26,12 @@ test("server-renders the Attic shell and social metadata", async () => {
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
-test("publication dataset exposes the current 17 + 14 + 3 + 1 units", async () => {
+test("publication dataset exposes the current 17 + 14 + 3 + 7 units", async () => {
   const catalog = JSON.parse(await readFile(new URL("../public/data/catalog.v1.json", import.meta.url), "utf8"));
   assert.deepEqual(catalog.languages, ["en", "ru"]);
   assert.equal(catalog.titles.length, 4);
   const counts = Object.fromEntries(catalog.titles.map((title) => [title.slug, title.availability.ru.unit_count]));
-  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 14, donkey_passports: 1 });
+  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 14, donkey_passports: 7 });
   assert.equal(catalog.titles.find((title) => title.slug === "donkey_passports").availability.en.clickable, false);
 });
 

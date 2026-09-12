@@ -1,5 +1,5 @@
 {
-  "approved_through": "book_01/chapter_001",
+  "approved_through": "book_01/chapter_007",
   "artwork": {
     "alt": {
       "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
@@ -63,6 +63,216 @@
       ],
       "titles": {
         "ru": "Глава 1 — Один ключ на двоих"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_002/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_002",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_002",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-002"
+      ],
+      "titles": {
+        "ru": "Глава 2 — Знаток тайной улицы"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_003/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_003",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_003",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-003"
+      ],
+      "titles": {
+        "ru": "Глава 3 — Кто закроет чат"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_004/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_004",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_004",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-004"
+      ],
+      "titles": {
+        "ru": "Глава 4 — Подлинная скромность, половина вперёд"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_005/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_005",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_005",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-005"
+      ],
+      "titles": {
+        "ru": "Глава 5 — Чужое добро и возврату не подлежит"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_006/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_006",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_006",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-006"
+      ],
+      "titles": {
+        "ru": "Глава 6 — Месяц без начальников"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_007/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_007",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_007",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-007"
+      ],
+      "titles": {
+        "ru": "Глава 7 — Дом, который на один вечер оказался настоящим"
       }
     }
   ]
