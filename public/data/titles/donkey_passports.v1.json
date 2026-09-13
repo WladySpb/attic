@@ -1,5 +1,5 @@
 {
-  "approved_through": "book_01/chapter_009",
+  "approved_through": "book_01/chapter_010",
   "artwork": {
     "alt": {
       "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
@@ -343,6 +343,41 @@
       ],
       "titles": {
         "ru": "Глава 9 — Добровольно, но до пятницы"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_010/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_010",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_010",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-010"
+      ],
+      "titles": {
+        "ru": "Глава 10 — Чужая беда с хорошим охватом"
       }
     }
   ]
