@@ -1,5 +1,5 @@
 {
-  "approved_through": "book_01/chapter_007",
+  "approved_through": "book_01/chapter_008",
   "artwork": {
     "alt": {
       "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
@@ -273,6 +273,41 @@
       ],
       "titles": {
         "ru": "Глава 7 — Дом, который на один вечер оказался настоящим"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_008/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_008",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_008",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-008"
+      ],
+      "titles": {
+        "ru": "Глава 8 — Человек, который всюду первым находил бар"
       }
     }
   ]

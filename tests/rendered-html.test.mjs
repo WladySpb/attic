@@ -26,12 +26,12 @@ test("server-renders the Attic shell and social metadata", async () => {
   assert.doesNotMatch(html, /codex-preview|loading skeleton|react-loading-skeleton/i);
 });
 
-test("publication dataset exposes the current 17 + 14 + 3 + 7 units", async () => {
+test("publication dataset exposes the current 17 + 14 + 3 + 8 units", async () => {
   const catalog = JSON.parse(await readFile(new URL("../public/data/catalog.v1.json", import.meta.url), "utf8"));
   assert.deepEqual(catalog.languages, ["en", "ru"]);
   assert.equal(catalog.titles.length, 4);
   const counts = Object.fromEntries(catalog.titles.map((title) => [title.slug, title.availability.ru.unit_count]));
-  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 14, donkey_passports: 7 });
+  assert.deepEqual(counts, { interstellar_spectators: 3, rebirth_and_die_another_way: 17, reborn_as_llm: 14, donkey_passports: 8 });
   assert.equal(catalog.titles.find((title) => title.slug === "donkey_passports").availability.en.clickable, false);
 });
 
@@ -41,6 +41,15 @@ test("single-book chapters have a working shareable reading URL", async () => {
   const html = await response.text();
   assert.match(html, /Один ключ на двоих/);
   assert.match(html, /donkey-passports\/cover-chapter-01-v1.png/);
+});
+
+test("Donkey Passports chapters use their artwork or the published fallback cover", async () => {
+  const detail = JSON.parse(await readFile(new URL("../public/data/titles/donkey_passports.v1.json", import.meta.url), "utf8"));
+  assert.equal(detail.artwork.key, "donkey-passports/cover-chapter-01-v1.png");
+  for (let chapter = 2; chapter <= 7; chapter++) {
+    const unit = detail.units.find((item) => item.id === `book_01/chapter_${String(chapter).padStart(3, "0")}`);
+    assert.ok([detail.artwork.key, `donkey-passports/chapter-${String(chapter).padStart(2, "0")}-v1.png`].includes(unit.artwork.key));
+  }
 });
 
 test("a shareable episode URL server-renders localized content and SEO metadata", async () => {
