@@ -1,5 +1,5 @@
 {
-  "approved_through": "book_01/chapter_010",
+  "approved_through": "book_01/chapter_011",
   "artwork": {
     "alt": {
       "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
@@ -378,6 +378,41 @@
       ],
       "titles": {
         "ru": "Глава 10 — Чужая беда с хорошим охватом"
+      }
+    },
+    {
+      "artwork": {
+        "alt": {
+          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+        },
+        "focal_point": "50% 50%",
+        "key": "donkey-passports/cover-chapter-01-v1.png"
+      },
+      "content": {
+        "ru": "content/donkey_passports/book_01/chapter_011/ru.v1.json"
+      },
+      "hierarchy": [
+        {
+          "display": "hidden",
+          "id": "book_01",
+          "level": "book"
+        },
+        {
+          "display": "separate",
+          "id": "chapter_011",
+          "level": "chapter"
+        }
+      ],
+      "id": "book_01/chapter_011",
+      "languages": [
+        "ru"
+      ],
+      "slug_path": [
+        "book-01",
+        "chapter-011"
+      ],
+      "titles": {
+        "ru": "Глава 11 — Дядя общего назначения"
       }
     }
   ]
