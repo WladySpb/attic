@@ -12,6 +12,7 @@
     "content/donkey_passports/book_01/chapter_009/ru.v1.json",
     "content/donkey_passports/book_01/chapter_010/ru.v1.json",
     "content/donkey_passports/book_01/chapter_011/ru.v1.json",
+    "content/donkey_passports/book_01/chapter_012/ru.v1.json",
     "content/interstellar_spectators/season_01/episode_01/en.v1.json",
     "content/interstellar_spectators/season_01/episode_01/ru.v1.json",
     "content/interstellar_spectators/season_01/episode_02/en.v1.json",
@@ -125,7 +126,7 @@
   },
   "schema_version": 1,
   "sha256": {
-    "catalog.v1.json": "ec86b90503619e660415538bf7a6ae6bd8b94a17e327ca2670366a339a0ec562",
+    "catalog.v1.json": "ed9ab49e24cb2baaf47a3c192aae9af9d8b0fbb5789c91c594fc3f3e62ac5489",
     "content/donkey_passports/book_01/chapter_001/ru.v1.json": "fca1c0e72000473193b5e197eca21f7ed22bd876dc0ef0fc3d94cec6d110e420",
     "content/donkey_passports/book_01/chapter_002/ru.v1.json": "37ec197a3020e7a858e780744533308bc3a0c7bd8a794cc6edfb80a564b2b910",
     "content/donkey_passports/book_01/chapter_003/ru.v1.json": "24788fcef75291d78f8871cec184a1f806ca9650eeb47937cacb39e2bdb3e96d",
@@ -137,6 +138,7 @@
     "content/donkey_passports/book_01/chapter_009/ru.v1.json": "71cc461fa1b483059dc5e1bb4929a9e72deec24abe52759dc137d0f463d6c65d",
     "content/donkey_passports/book_01/chapter_010/ru.v1.json": "b20d2eec295f68b4e90a1f47053bca4a2d9d857779fdcf8bd787698e759fa855",
     "content/donkey_passports/book_01/chapter_011/ru.v1.json": "7c33fec68f33abfbde5dbb64113dbbdeb62671fcef309fe80a84e3df27fc58c4",
+    "content/donkey_passports/book_01/chapter_012/ru.v1.json": "20a1b65832819eb0340ba50fd83ade7b95eabb349c7f5b4fc77c019d4486af65",
     "content/interstellar_spectators/season_01/episode_01/en.v1.json": "eff6b3b6dcd7c48be5176dcc5c0184773a7f3a1fcaba4bc4e5083017369c385c",
     "content/interstellar_spectators/season_01/episode_01/ru.v1.json": "f60edf9c9d4aaa0325c8a12c615cdd2b8aa193a84fd2a92c1556fefd7eefbced",
     "content/interstellar_spectators/season_01/episode_02/en.v1.json": "c634416930baa62faf5780f7e6b39f203c140af1f4be9850325a9f53c1209e48",
@@ -205,7 +207,7 @@
     "content/reborn_as_llm/season_01/episode_02/chapter_006/ru.v1.json": "48ea79d8f6032ef5c8c3a5bc0d3bc4158ba54411017fd32d83ad80815eb64647",
     "content/reborn_as_llm/season_01/episode_02/chapter_007/en.v1.json": "b29d89f23df4454094a80c6e779f6dcc968a723905392415d183be510b395259",
     "content/reborn_as_llm/season_01/episode_02/chapter_007/ru.v1.json": "d6f41fafc5fac4cbcf0c1cd495f9709d663f82de06f689fc1b4ceb7cb5319a31",
-    "titles/donkey_passports.v1.json": "bd559d66c1213cf63148543a976083abd9d39a29cacf913af03d11f455a2f715",
+    "titles/donkey_passports.v1.json": "345798ecfc34b3f95304dd73140ee4e0cf411a888cf944685d8155cc2c767bf5",
     "titles/interstellar_spectators.v1.json": "911d376abd908a1ce85b86ebe6aa9573a074d1d0803be6310e20fe6d2161f0cb",
     "titles/rebirth_and_die_another_way.v1.json": "666da21668683fe7b49e658ff81565e92806d36b1a67d581f273c918966ebbfa",
     "titles/reborn_as_llm.v1.json": "fa6a8301f7f6c243b019dc4d89fdbc4240da86d1e11f47e1ce07b170ff809eb3"
