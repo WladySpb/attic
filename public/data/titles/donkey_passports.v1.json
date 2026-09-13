@@ -68,10 +68,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Матвей изображает капитана автобуса, пока Соня ведёт его к выходу"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-02-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_002/ru.v1.json"
@@ -103,10 +103,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина устраивает временный стол во время аврала в кафе"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-03-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_003/ru.v1.json"
@@ -138,10 +138,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина маскирует дорогую мебель под подлинную скромность"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-04-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_004/ru.v1.json"
@@ -173,10 +173,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина защищает содержимое чужого чемодана, а Матвей отвлекает гостей"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-05-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_005/ru.v1.json"
@@ -208,10 +208,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Матвей и Нина представляют будущую коммуну гостям пира"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-06-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_006/ru.v1.json"
@@ -243,10 +243,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Первый общий ужин новых жильцов коммуны"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-07-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_007/ru.v1.json"

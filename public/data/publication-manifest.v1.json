@@ -83,6 +83,12 @@
     "titles/reborn_as_llm.v1.json"
   ],
   "media_files": [
+    "donkey-passports/chapter-02-v1.png",
+    "donkey-passports/chapter-03-v1.png",
+    "donkey-passports/chapter-04-v1.png",
+    "donkey-passports/chapter-05-v1.png",
+    "donkey-passports/chapter-06-v1.png",
+    "donkey-passports/chapter-07-v1.png",
     "donkey-passports/cover-chapter-01-v1.png",
     "interstellar-spectators/cover-v2.png",
     "interstellar-spectators/season-01/episode-01.png",
@@ -96,6 +102,12 @@
     "reborn-to-die-another-way/season-01/episode-03.png"
   ],
   "media_sha256": {
+    "donkey-passports/chapter-02-v1.png": "508a4b69537c7efd33798a2f3c593c79c28a2cd23d9dec95c7aefbc8f6101087",
+    "donkey-passports/chapter-03-v1.png": "951f36aaf040e06b529b70430d35e75a3316e63d8f7ba2dfbafede26f0aaef0e",
+    "donkey-passports/chapter-04-v1.png": "3d8272b59b693a9751ef5f3e5decb0d3d2905fbda895a445beb215b6a48b74dd",
+    "donkey-passports/chapter-05-v1.png": "9bca72e4b8bcb0ce9b2391f827945b2d2397bcc4acf505d9658bd70b25d3229d",
+    "donkey-passports/chapter-06-v1.png": "c824c6640b5d232633aaa5ff0a2964a0be1d23cc7dea77d9fcd0405ebeb46f1a",
+    "donkey-passports/chapter-07-v1.png": "a2a563aeb6b77910e672a499dd0e58a0f923fe3908e1876618f1e6a13ef4b87f",
     "donkey-passports/cover-chapter-01-v1.png": "4d27a84fb1bbd0eb787a8ed25d8727fc14ec94f92668433bde143e0e0bb6d2ca",
     "interstellar-spectators/cover-v2.png": "954a71af45b7f51ffd9509b98df57f74338ca0caf10795c8c6d640916fcfc8b6",
     "interstellar-spectators/season-01/episode-01.png": "2cbebdfcc194adb0b17166aab977bbd2e7ec331a10a5a9615a505add08119647",
@@ -187,7 +199,7 @@
     "content/reborn_as_llm/season_01/episode_02/chapter_006/ru.v1.json": "48ea79d8f6032ef5c8c3a5bc0d3bc4158ba54411017fd32d83ad80815eb64647",
     "content/reborn_as_llm/season_01/episode_02/chapter_007/en.v1.json": "b29d89f23df4454094a80c6e779f6dcc968a723905392415d183be510b395259",
     "content/reborn_as_llm/season_01/episode_02/chapter_007/ru.v1.json": "d6f41fafc5fac4cbcf0c1cd495f9709d663f82de06f689fc1b4ceb7cb5319a31",
-    "titles/donkey_passports.v1.json": "276dfae450046370672c110aced4c8e9f919d047b295e4838232f8465167ce3f",
+    "titles/donkey_passports.v1.json": "e5e56d8152cb321c01149d226fab94219911a14f481ecf96b05e7bffc636ac6a",
     "titles/interstellar_spectators.v1.json": "911d376abd908a1ce85b86ebe6aa9573a074d1d0803be6310e20fe6d2161f0cb",
     "titles/rebirth_and_die_another_way.v1.json": "666da21668683fe7b49e658ff81565e92806d36b1a67d581f273c918966ebbfa",
     "titles/reborn_as_llm.v1.json": "fa6a8301f7f6c243b019dc4d89fdbc4240da86d1e11f47e1ce07b170ff809eb3"
