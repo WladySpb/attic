@@ -46,7 +46,7 @@ test("single-book chapters have a working shareable reading URL", async () => {
 test("Donkey Passports chapters use their published illustrations", async () => {
   const detail = JSON.parse(await readFile(new URL("../public/data/titles/donkey_passports.v1.json", import.meta.url), "utf8"));
   assert.equal(detail.artwork.key, "donkey-passports/cover-chapter-01-v1.png");
-  for (let chapter = 2; chapter <= 7; chapter++) {
+  for (let chapter = 2; chapter <= 12; chapter++) {
     const unit = detail.units.find((item) => item.id === `book_01/chapter_${String(chapter).padStart(3, "0")}`);
     assert.equal(unit.artwork.key, `donkey-passports/chapter-${String(chapter).padStart(2, "0")}-v1.png`);
   }

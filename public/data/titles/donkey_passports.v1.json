@@ -278,10 +278,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Матвей находит Кирилла спящим в прачечной и возвращает ему ключ"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-08-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_008/ru.v1.json"
@@ -313,10 +313,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина останавливает спорное заселение до общего решения жильцов"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-09-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_009/ru.v1.json"
@@ -348,10 +348,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Лада требует от Матвея удалить опубликованную без согласия историю"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-10-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_010/ru.v1.json"
@@ -383,10 +383,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина замечает обман с подставным родственником за общим столом"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-11-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_011/ru.v1.json"
@@ -418,10 +418,10 @@
     {
       "artwork": {
         "alt": {
-          "ru": "Матвей и Нина спорят за единственный ключ у двери съёмной квартиры"
+          "ru": "Нина обнаруживает скрытую трещину в секретере в новой мастерской"
         },
         "focal_point": "50% 50%",
-        "key": "donkey-passports/cover-chapter-01-v1.png"
+        "key": "donkey-passports/chapter-12-v1.png"
       },
       "content": {
         "ru": "content/donkey_passports/book_01/chapter_012/ru.v1.json"
